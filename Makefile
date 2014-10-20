@@ -1,7 +1,7 @@
 radius: radius.c distance.c area.c geom.h 
 	clang -Wall -o radius radius.c distance.c area.c -lm
 	
-clean: radius
+clean: 
 	rm -f radius
 	
 
